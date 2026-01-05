@@ -1,5 +1,5 @@
 # Use official OpenJDK image from Docker Hub
-FROM openjdk:17-jdk-alpine
+FROM eclipse-termurin:17-jdk-alpine
 
 # Set working directory inside container
 WORKDIR /app

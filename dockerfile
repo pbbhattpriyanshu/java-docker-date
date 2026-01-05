@@ -11,4 +11,4 @@ COPY index.java .
 RUN javac index.java
 
 # Command to run when container starts
-CMD ["java", "index"]
+CMD ["java", "src.index"]
